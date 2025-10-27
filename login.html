@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SkinSmart Login</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>🌸 SkinSmart Login</h1>
+    <p class="tagline">Your step-by-step skincare guide</p>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" />
+      <button onclick="login()">Login</button>
+      <p id="loginMsg"></p>
+
+      <hr>
+
+      <h2>Sign Up</h2>
+      <input type="text" id="signupUsername" placeholder="New Username" />
+      <input type="password" id="signupPassword" placeholder="New Password" />
+      <button onclick="signup()">Sign Up</button>
+      <p id="signupMsg"></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 SkinSmart. All Rights Reserved 🌿
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

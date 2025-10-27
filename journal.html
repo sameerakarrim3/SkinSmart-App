@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SkinSmart Journal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📔 SkinSmart Journal</h1>
+  </header>
+
+<nav id="tabs-top">
+  <a href="index.html">Home</a>
+  <a href="journal.html">Journal</a>
+  <a href="ritual.html">Ritual</a>
+  <a href="femalecycle.html">Female Cycle</a>
+  <a href="login.html" onclick="logout()">Logout</a>
+</nav>
+
+  <main class="container">
+    <section class="section">
+      <h2>How’s your skin & mood today?</h2>
+      <textarea id="journalEntry" placeholder="Write about your skin day..."></textarea>
+      <button onclick="saveEntry()">Save Entry</button>
+      <p id="msg"></p>
+
+      <h3>Your Past Entries:</h3>
+      <div id="pastEntries"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SkinSmart Ritual</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>🌸 SkinSmart Daily Ritual</h1>
+    <p class="tagline">Your step-by-step skincare guide for glowing skin</p>
+  </header>
+
+  <nav id="tabs-top">
+  <a href="index.html">Home</a>
+  <a href="journal.html">Journal</a>
+  <a href="ritual.html">Ritual</a>
+  <a href="femalecycle.html">Female Cycle</a>
+  <a href="login.html" onclick="logout()">Logout</a>
+</nav>
+
+
+  <main class="container">
+    <section class="section">
+      <h2>🧴 Your Facial Routine Steps</h2>
+      <p>Follow each step in your daily ritual — tick as you go to track your progress!</p>
+
+      <ul class="ritual-list">
+        <li>
+          <label>
+            <input type="checkbox" class="step" data-step="1"> 
+            <strong>1. Cleanse</strong> — Use a suitable cleanser for your skin type. Cleanse twice daily (morning & night).  
+            <br><em>Benefits:</em> Removes dirt, oil, and impurities.  
+            <br><em>Best for:</em>  
+            - Dry skin → Cream or hydrating cleanser  
+            - Oily skin → Gel or foaming cleanser  
+            - Sensitive skin → Fragrance-free, gentle cleanser
+          </label>
+        </li>
+
+        <li>
+          <label>
+            <input type="checkbox" class="step" data-step="2"> 
+            <strong>2. Tone</strong> — Apply a toner after cleansing to balance pH and prep skin.  
+            <br><em>Benefits:</em> Refreshes skin, tightens pores, restores moisture.  
+            <br><em>Best for:</em>  
+            - Oily skin → Witch hazel, BHA toner  
+            - Dry skin → Rose water, hyaluronic toner
+          </label>
+        </li>
+
+        <li>
+          <label>
+            <input type="checkbox" class="step" data-step="3"> 
+            <strong>3. Exfoliate</strong> — Exfoliate every second day to remove dead skin cells.  
+            <br><em>Benefits:</em> Brightens, smooths texture, unclogs pores.  
+            <br><em>Best for:</em>  
+            - Acne-prone → Salicylic acid exfoliant  
+            - Dull skin → Glycolic acid or lactic acid exfoliant  
+            - Sensitive → Gentle enzyme exfoliant
+          </label>
+        </li>
+
+        <li>
+          <label>
+            <input type="checkbox" class="step" data-step="4"> 
+            <strong>4. Steam with Exfoliator</strong> — Steam for 5–10 mins while exfoliating to open pores.  
+            <br><em>Benefits:</em> Boosts circulation & deep cleans pores.  
+            <br><em>Best for:</em> Normal, oily, or combination skin types.  
+            <br><em>Note:</em> Avoid steaming if you have rosacea or very sensitive skin.
+          </label>
+        </li>
+
+        <li>
+          <label>
+            <input type="checkbox" class="step" data-step="5"> 
+            <strong>5. Serum</strong> — Apply a serum with active ingredients to target your concerns.  
+            <br><em>Examples:</em>  
+            - Hyperpigmentation → Niacinamide or Vitamin C  
+            - Acne → Salicylic Acid, Tea Tree  
+            - Aging → Retinol or Peptides  
+            - Dehydration → Hyaluronic Acid  
+            <br><em>Benefits:</em> Treats skin deeply and improves tone and texture.
+          </label>
+        </li>
+
+        <li>
+          <label>
+            <input type="checkbox" class="step" data-step="6"> 
+            <strong>6. Moisturize</strong> — Lock in hydration with a moisturizer suited to your skin type.  
+            <br><em>Benefits:</em> Nourishes, seals hydration, and strengthens skin barrier.  
+            <br><em>Best for:</em>  
+            - Dry → Thick cream with ceramides  
+            - Oily → Lightweight gel-based formula  
+            - Sensitive → Fragrance-free cream
+          </label>
+        </li>
+
+        <li>
+          <label>
+            <input type="checkbox" class="step" data-step="7"> 
+            <strong>7. SPF</strong> — Always apply sunscreen before leaving the house!  
+            <br><em>Benefits:</em> Protects against sun damage, aging, and hyperpigmentation.  
+            <br><em>Best for:</em>  
+            - All skin types — Use broad-spectrum SPF 30+  
+            - Oily skin → Mattifying SPF  
+            - Dry skin → Hydrating SPF with Vitamin E
+          </label>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 SkinSmart. All Rights Reserved 🌿
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

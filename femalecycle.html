@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cycle-Aware Skincare</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌺 Cycle-Aware Skincare</h1>
+  </header>
+
+  </nav>
+  <nav id="tabs-top">
+  <a href="index.html">Home</a>
+  <a href="journal.html">Journal</a>
+  <a href="ritual.html">Ritual</a>
+  <a href="femalecycle.html">Female Cycle</a>
+  <a href="login.html" onclick="logout()">Logout</a>
+</nav>
+
+  <main class="container">
+    <section class="section">
+      <h2>Select your current phase:</h2>
+      <select id="phase" onchange="showAdvice()">
+        <option value="">Select...</option>
+        <option value="follicular">🌸 Follicular</option>
+        <option value="ovulation">💖 Ovulation</option>
+        <option value="luteal">🔥 Luteal</option>
+        <option value="menstrual">🌙 Menstrual</option>
+      </select>
+      <div id="advice" class="card"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
